@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import {createBottomTabNavigator} from 'react-navigation-tabs';
 import FbScreen from './screens/fb';
@@ -9,7 +9,7 @@ import {Header} from 'react-native-elements';
 export default class App extends React.Component {
   render(){
   return (
-    <View>
+    <View style = {{flex : 1}}>
       <Header
       backgroundColor = 'pink'
       centerComponent = {{
